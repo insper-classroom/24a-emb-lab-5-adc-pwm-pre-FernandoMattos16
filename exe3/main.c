@@ -39,7 +39,7 @@ void process_task(void *p) {
 
             int filtered_data = sum / 5;
 
-            printf("%d\n", filtered_data)
+            printf("%d\n", filtered_data);
 
             // deixar esse delay!
             vTaskDelay(pdMS_TO_TICKS(50));
